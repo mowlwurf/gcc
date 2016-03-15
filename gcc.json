@@ -1,10 +1,9 @@
 {
   "chmod": "0755",
   "directories": [
-    "src", "app"
+    "src"
   ],
   "files": [
-    "LICENSE"
   ],
   "finder": [
     {
