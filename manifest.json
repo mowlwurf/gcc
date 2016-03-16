@@ -2,7 +2,13 @@
   {
     "name": "gcc.phar",
     "sha1": "78ad2d6331187774f24414cf7587e9c4c4813bcf",
-    "url": "http://mowlwurf.github.io/gcc/downloads/gcc-1.1.0.phar",
-    "version": "1.1.0"
+    "url": "http://mowlwurf.github.io/gcc/downloads/gcc-1.0.0.phar",
+    "version": "1.0.0"
+  },
+  {
+    "name": "gcc.phar",
+    "sha1": "faae77c32c113ae29d84923a5e2b769fa30fb745",
+    "url": "http://mowlwurf.github.io/gcc/downloads/gcc-1.0.1.phar",
+    "version": "1.0.1"
   }
 ]
