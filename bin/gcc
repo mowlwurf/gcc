@@ -6,7 +6,7 @@ require __DIR__.'/../vendor/autoload.php';
 use AppBundle\Command;
 use Symfony\Component\Console\Application;
 
-$application = new Application('gcc', '1.0.1');
+$application = new Application('gcc', '1.0.2');
 $application->add(new Command\GitCheckoutCommand());
 $application->add(new Command\UpdateCommand());
 $application->run();
