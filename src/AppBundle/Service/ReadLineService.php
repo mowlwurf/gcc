@@ -51,11 +51,15 @@ class ReadLineService
     }
 
     /**
+     * @param string $preInput
      * @return string
      */
-    public function readLine()
+    public function readLine($preInput = '')
     {
-        $this->input = readline("Branch: ");
+        $this->input = readline(sprintf(
+            "%s: ",
+            $preInput
+        ));
         return $this->input;
     }
 }
