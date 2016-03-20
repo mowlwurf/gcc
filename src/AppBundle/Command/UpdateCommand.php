@@ -29,6 +29,7 @@ class UpdateCommand extends ContainerAwareCommand
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $manager = new Manager(Manifest::loadFile(self::MANIFEST_FILE));
+        $output->writeln('updating gcc app to version ' . $this->getApplication()->getVersion());
         $manager->update($this->getApplication()->getVersion(), true);
     }
 }

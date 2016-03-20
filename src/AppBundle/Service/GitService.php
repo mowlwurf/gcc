@@ -18,6 +18,18 @@ class GitService
     }
 
     /**
+     * @param string $input
+     */
+    public function merge($input)
+    {
+        if (in_array(trim($input), $this->getBranches())){
+            print shell_exec('git merge ' . $input);
+        } else {
+            print "$input seems not to be an existing branch, please use git checkout -b $input to create a new branch";
+        }
+    }
+
+    /**
      * @return array
      */
     public function getBranches()
