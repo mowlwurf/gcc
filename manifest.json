@@ -1,12 +1,6 @@
 [
   {
     "name": "gcc.phar",
-    "sha1": "78ad2d6331187774f24414cf7587e9c4c4813bcf",
-    "url": "http://mowlwurf.github.io/gcc/downloads/gcc-1.0.0.phar",
-    "version": "1.0.0"
-  },
-  {
-    "name": "gcc.phar",
     "sha1": "faae77c32c113ae29d84923a5e2b769fa30fb745",
     "url": "http://mowlwurf.github.io/gcc/downloads/gcc-1.0.1.phar",
     "version": "1.0.1"
@@ -16,5 +10,11 @@
     "sha1": "90defda9e7b0a6086b4b8be09f29e1b7ff4a3bf0",
     "url": "http://mowlwurf.github.io/gcc/downloads/gcc-1.0.2.phar",
     "version": "1.0.2"
+  },
+  {
+    "name": "gcc.phar",
+    "sha1": "66f717e118362c37a5d45ba74ada1de099873c82",
+    "url": "http://mowlwurf.github.io/gcc/downloads/gcc-1.0.3.phar",
+    "version": "1.0.3"
   }
 ]
