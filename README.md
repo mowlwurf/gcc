@@ -16,7 +16,7 @@ $ gcc checkout -c (hash) -t (tag) your-branch/tag/commit (default:branch)
 Use **gcc merge** to merge a branch into the current one.
 
 ```
-$gcc merge your-branch
+$ gcc merge your-branch
 ```
 
 ## Update
@@ -24,5 +24,5 @@ $gcc merge your-branch
 Use **gcc update** to update gcc itself.
 
 ```
-$gcc update
+$ gcc update
 ```
